@@ -58,3 +58,21 @@ df.groupby(['categorical_column1']).mean()['categorical_column2']*100.plot(kind=
 sns.clustermap(pd.crosstab(df['categorical_column1'], df['categorical_column2']))
 # Clustermap for categorical-categorical data
 ```
+
+- **Pairplot** is used for numerical-numerical data.
+- Example:
+```
+sns.pairplot(df, hue='categorical_column')
+# Pairplot for numerical-numerical data
+```
+
+- **Lineplot** is used for numerical-numerical data.
+- Example:
+```
+sns.lineplot(df['numerical_column1'], df['numerical_column2'], hue=df['categorical_column'])
+
+# flights.pivot_table(values='passengers', index='month', columns='year')
+# sns.heatmap(flights.pivot_table(values='passengers', index='month', columns='year'))
+# The above line creates a pivot table with 'month' as index and 'year' as columns.
+# Lineplot for numerical-numerical data
+```
