@@ -15,3 +15,5 @@
   - Encoding categorical variables
   - Outlier detection
   - Feature Scaling
+- Feature Construction is mostly based on the intuition of the data scientist and domain knowledge.
+- Feature Extraction is often used in high-dimensional data to reduce the number of features while retaining important information.
