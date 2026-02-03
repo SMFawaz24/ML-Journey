@@ -1,0 +1,24 @@
+# Lecture 24
+
+---
+
+## Feature Scaling
+
+- Feature Scaling is a technique to standardize the range of independent variables or features of data.
+- Some independent variables, if not scaled properly, can bring in problems to the model performance.
+- Types:
+  - Standardization (Z-score Normalization)
+  - Min-Max Scaling (Normalization)
+
+### Standardization (Z-score Normalization)
+
+- Transforms data to have a mean of 0 and a standard deviation of 1.
+- Formula:
+  \[
+  z = \frac{(X - \mu)}{\sigma}
+  \]
+  where \(X\) is the original value, \(\mu\) is the mean of the feature, and \(\sigma\) is the standard deviation of the feature.
+- The mean and standard deviation are always 0 and 1 respectively after standardization.
+- Standardization works on:
+  - Mean Centering
+  - Scaling by Standard Deviation
