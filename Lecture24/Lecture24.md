@@ -22,4 +22,5 @@
 - Standardization works on:
   - Mean Centering
   - Scaling by Standard Deviation
-![alt text](Screenshot 2026-02-04 235419.png)
+<img width="1145" height="501" alt="Screenshot 2026-02-04 235419" src="https://github.com/user-attachments/assets/4be42b8d-56f4-4369-9595-fd51f86c0c8c" />
+
