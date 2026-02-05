@@ -14,8 +14,10 @@ This repository documents my progress in learning Machine Learning (ML). It incl
 - Data preprocessing and visualization examples
 - End-to-end ML project workflows
 - Experiments and model evaluations
+- Regular updates (almost) everyday
 
 ## Projects & Practice
+
 ### Regression Analysis
 Implemented basic and advanced regression algorithms to predict continuous outcomes.
 
