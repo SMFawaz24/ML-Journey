@@ -24,3 +24,16 @@
   - Scaling by Standard Deviation
 <img width="1145" height="501" alt="Screenshot 2026-02-04 235419" src="https://github.com/user-attachments/assets/4be42b8d-56f4-4369-9595-fd51f86c0c8c" />
 
+#### Importance of Scaling
+- Values are accurate when the features are scaled properly.
+- There is no harm in scaling the features, but it can lead to better performance of the model.
+- Outliers can affect the mean and standard deviation, which can lead to poor performance of the model.
+- **When to use Standardization?**
+  - K-Means
+  - K-Nearest Neighbors
+  - Principal Component Analysis (PCA)
+  - Artificial Neural Networks
+  - Gradient Descent based algorithms
+
+- Algorithms like Decision Trees, Random Forests, and Gradient Boosting do not require feature scaling as they are based on the concept of splitting the data based on feature values.
+
