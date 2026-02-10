@@ -41,3 +41,10 @@
 ### Robust Scaling
 - Formula: $$ x*{\text{normalized}} = \frac{x - \text{median}}{\text{IQR}} $$
 - Where IQR (Interquartile Range) = Q3 - Q1.
+- Robust to outliers, as it uses the median and IQR instead of mean and standard deviation.
+
+### Normalization vs Standardization
+- Requirement of feature scaling depends on the algorithm being used.
+- Normalization is used when the distribution of data is not Gaussian and the algorithm does not assume any distribution.
+- Standardization is used when the distribution of data is Gaussian and the algorithm assumes a normal distribution.
+
