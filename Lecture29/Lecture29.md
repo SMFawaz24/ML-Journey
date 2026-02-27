@@ -41,3 +41,15 @@ pipeline.fit(X_train, y_train)
 - **Step 4:** Perform Feature Selection
 - **Step 5:** Train Model (Decision Tree, Random Forest, Logistic Regression, etc.)
 
+### How to Create a Pipeline
+
+- Import the necessary libraries and classes.
+- Define the steps of the pipeline as a list of tuples, where each tuple contains a name for the step and the corresponding transformer or estimator.
+- Create an instance of the Pipeline class with the defined steps.
+- Fit the pipeline on the training data using the `fit` method.
+
+### Pipeline VS make_pipeline
+
+- Pipeline requires you to name each step, while make_pipeline automatically assigns names based on the class names of the transformers and estimators.
+- Pipeline allows for more flexibility in naming and ordering of steps, while make_pipeline is a simpler way to create a pipeline without worrying about naming the steps.
+- Same can be said for ColumnTransformer and make_column_transformer.
